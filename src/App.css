@@ -3,5 +3,19 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 100%;
+  background-color: rgba(86, 133, 126, 1);
+}
+
+#Father h2 {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}
+
+Editor {
+  flex-basis: 100%;
+}
+
+Preview {
+  flex-basis: 100%;
 }

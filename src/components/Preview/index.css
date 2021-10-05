@@ -1,7 +1,8 @@
 #preview {
-  width: 600px;
-  height: 500px;
-  border: 1px solid red;
+  width: 1000px;
+  border: 1px solid rgb(114, 206, 192);
   overflow: auto;
   padding: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 2px rgb(155, 153, 153);
 }

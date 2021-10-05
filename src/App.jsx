@@ -7,8 +7,9 @@ export default class App extends Component {
   render() {
     return (
       <div id='Father'>
-        <Preview></Preview>
-        <Editor></Editor>
+        <h2>Markdown 编辑器</h2>
+        <Editor />
+        <Preview />
       </div>
     )
   }

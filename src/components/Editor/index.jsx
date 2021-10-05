@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { EditorAction } from '../../redux/actions/Editor'
+import './index.css'
 
 class EditorUI extends Component {
   componentDidMount(){
@@ -12,7 +13,7 @@ class EditorUI extends Component {
   render() {
     return (
       <div>
-        <textarea id="editor" cols="60" rows="25" onChange={this.changeText} ref={c => this.Node = c}>
+        <textarea id="editor" onChange={this.changeText} ref={c => this.Node = c}>
         </textarea>
       </div>
     )
